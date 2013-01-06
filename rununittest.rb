@@ -17,4 +17,5 @@ if ENV['SL_RUN_UNIT_TESTS'] then
 else
     puts "SL_RUN_UNIT_TESTS not set - Did not run unit tests!"
 end
+	exit(0)
 
