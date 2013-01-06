@@ -26,5 +26,8 @@
 @property BOOL hostActive;
 
 - (void) initMainTopbar;
+- (void) showMainTopbar;
+- (void) hideMainTopbar;
+
 
 @end
