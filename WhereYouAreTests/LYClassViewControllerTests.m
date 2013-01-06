@@ -38,7 +38,7 @@
 - (void) testInitMainTopbar
 {
     [self.mMainVC initMainTopbar];
-    STAssertNil(self.mMainVC.mainTopBarView, @"mainTopBarView Init fall");
+    STAssertNotNil(self.mMainVC.mainTopBarView, @"mainTopBarView Init fall");
 }
 
 
