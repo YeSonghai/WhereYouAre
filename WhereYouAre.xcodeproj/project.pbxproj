@@ -18,7 +18,7 @@
 		843C013F169967AF004C0354 /* LYClassMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C013E169967AF004C0354 /* LYClassMapViewTests.m */; };
 		843C0141169968C6004C0354 /* LYOprRcvZMQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C0140169968C6004C0354 /* LYOprRcvZMQ.m */; };
 		843C014416996D38004C0354 /* LYClassViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C014316996D38004C0354 /* LYClassViewControllerTests.m */; };
-		8471B35716980B15009E5EE2 /* libzmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8471B35616980B15009E5EE2 /* libzmq.a */; };
+		843C014716997A8F004C0354 /* libzmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 843C014516997A8F004C0354 /* libzmq.a */; };
 		84A8F5DD169688CB001C0E0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8F5DC169688CB001C0E0F /* UIKit.framework */; };
 		84A8F5DF169688CB001C0E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8F5DE169688CB001C0E0F /* Foundation.framework */; };
 		84A8F5E1169688CB001C0E0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8F5E0169688CB001C0E0F /* CoreGraphics.framework */; };
@@ -100,8 +100,8 @@
 		843C0140169968C6004C0354 /* LYOprRcvZMQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYOprRcvZMQ.m; sourceTree = "<group>"; };
 		843C014216996D38004C0354 /* LYClassViewControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYClassViewControllerTests.h; sourceTree = "<group>"; };
 		843C014316996D38004C0354 /* LYClassViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYClassViewControllerTests.m; sourceTree = "<group>"; };
-		8471B35616980B15009E5EE2 /* libzmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzmq.a; path = "../zeromq-2.2.0-arm/libzmq.a"; sourceTree = "<group>"; };
-		8471B35816980B7D009E5EE2 /* zmq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zmq.h; path = "../zeromq-2.2.0-arm/build/include/zmq.h"; sourceTree = "<group>"; };
+		843C014516997A8F004C0354 /* libzmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzmq.a; sourceTree = "<group>"; };
+		843C014616997A8F004C0354 /* zmq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq.h; sourceTree = "<group>"; };
 		84A8F5D8169688CB001C0E0F /* WhereYouAre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereYouAre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A8F5DC169688CB001C0E0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84A8F5DE169688CB001C0E0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -145,9 +145,9 @@
 				84A8F5DD169688CB001C0E0F /* UIKit.framework in Frameworks */,
 				84A8F5DF169688CB001C0E0F /* Foundation.framework in Frameworks */,
 				84A8F5E1169688CB001C0E0F /* CoreGraphics.framework in Frameworks */,
-				8471B35716980B15009E5EE2 /* libzmq.a in Frameworks */,
 				843C00E716981403004C0354 /* libzmqobjc.a in Frameworks */,
 				843C0103169829ED004C0354 /* libProtocolBuffers.a in Frameworks */,
+				843C014716997A8F004C0354 /* libzmq.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,8 +167,8 @@
 		843C00EB1698142F004C0354 /* ZMQ */ = {
 			isa = PBXGroup;
 			children = (
-				8471B35816980B7D009E5EE2 /* zmq.h */,
-				8471B35616980B15009E5EE2 /* libzmq.a */,
+				843C014516997A8F004C0354 /* libzmq.a */,
+				843C014616997A8F004C0354 /* zmq.h */,
 				843C00E916981411004C0354 /* ZMQContext.h */,
 				843C00EA16981411004C0354 /* ZMQSocket.h */,
 				843C00E616981403004C0354 /* libzmqobjc.a */,
