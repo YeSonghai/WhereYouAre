@@ -16,8 +16,8 @@
 		843C013816995721004C0354 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843C013716995721004C0354 /* SystemConfiguration.framework */; };
 		843C013B169966EC004C0354 /* LYMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C013A169966EC004C0354 /* LYMapView.m */; };
 		843C0141169968C6004C0354 /* LYOprRcvZMQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C0140169968C6004C0354 /* LYOprRcvZMQ.m */; };
-		843C014416996D38004C0354 /* LYClassViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C014316996D38004C0354 /* LYClassViewControllerTests.m */; };
 		843C014716997A8F004C0354 /* libzmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 843C014516997A8F004C0354 /* libzmq.a */; };
+		8480BF95169A7E23007EF145 /* WhereYouAreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480BF94169A7E23007EF145 /* WhereYouAreTests.m */; };
 		84A8F5DD169688CB001C0E0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8F5DC169688CB001C0E0F /* UIKit.framework */; };
 		84A8F5DF169688CB001C0E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8F5DE169688CB001C0E0F /* Foundation.framework */; };
 		84A8F5E1169688CB001C0E0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8F5E0169688CB001C0E0F /* CoreGraphics.framework */; };
@@ -95,10 +95,10 @@
 		843C0139169966EC004C0354 /* LYMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMapView.h; sourceTree = "<group>"; };
 		843C013A169966EC004C0354 /* LYMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMapView.m; sourceTree = "<group>"; };
 		843C0140169968C6004C0354 /* LYOprRcvZMQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYOprRcvZMQ.m; sourceTree = "<group>"; };
-		843C014216996D38004C0354 /* LYClassViewControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYClassViewControllerTests.h; sourceTree = "<group>"; };
-		843C014316996D38004C0354 /* LYClassViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYClassViewControllerTests.m; sourceTree = "<group>"; };
 		843C014516997A8F004C0354 /* libzmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzmq.a; sourceTree = "<group>"; };
 		843C014616997A8F004C0354 /* zmq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq.h; sourceTree = "<group>"; };
+		8480BF93169A7E23007EF145 /* WhereYouAreTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhereYouAreTests.h; sourceTree = "<group>"; };
+		8480BF94169A7E23007EF145 /* WhereYouAreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhereYouAreTests.m; sourceTree = "<group>"; };
 		84A8F5D8169688CB001C0E0F /* WhereYouAre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereYouAre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A8F5DC169688CB001C0E0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84A8F5DE169688CB001C0E0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -304,8 +304,8 @@
 			isa = PBXGroup;
 			children = (
 				84A8F607169688CB001C0E0F /* Supporting Files */,
-				843C014216996D38004C0354 /* LYClassViewControllerTests.h */,
-				843C014316996D38004C0354 /* LYClassViewControllerTests.m */,
+				8480BF93169A7E23007EF145 /* WhereYouAreTests.h */,
+				8480BF94169A7E23007EF145 /* WhereYouAreTests.m */,
 			);
 			path = WhereYouAreTests;
 			sourceTree = "<group>";
@@ -469,7 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843C014416996D38004C0354 /* LYClassViewControllerTests.m in Sources */,
+				8480BF95169A7E23007EF145 /* WhereYouAreTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

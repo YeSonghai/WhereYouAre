@@ -8,13 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "WhereYouAreTests/WhereYouAreTests.m"
-         timestampString = "378975217.306324"
+         timestampString = "379223637.771625"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "21"
-         endingLineNumber = "21"
-         landmarkName = "-setUp"
-         landmarkType = "5">
+         startingLineNumber = "53"
+         endingLineNumber = "53">
       </FileBreakpoint>
    </FileBreakpoints>
    <ExceptionBreakpoints>
