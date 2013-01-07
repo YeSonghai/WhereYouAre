@@ -9,6 +9,25 @@
 #import "LYClassMapViewTests.h"
 
 @implementation LYClassMapViewTests
+- (void)setUp
+{
+    [super setUp];
+    
+    // Set-up code here.
+}
+
+- (void)tearDown
+{
+    // Tear-down code here.
+    
+    [super tearDown];
+}
+
+
+- (void) testCase1
+{
+    STAssertNotNil(self, @"mainTopBarView Init fall");
+}
 
 
 @end
