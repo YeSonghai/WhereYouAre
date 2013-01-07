@@ -26,7 +26,7 @@
 
 - (void) testCase1
 {
-    STAssertNotNil(self, @"mainTopBarView Init fall");
+    STAssertNotNil(, @"mainTopBarView Init fall");
 }
 
 

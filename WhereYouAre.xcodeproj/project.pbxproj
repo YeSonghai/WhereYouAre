@@ -15,7 +15,6 @@
 		843C0136169956AB004C0354 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843C0135169956AB004C0354 /* CFNetwork.framework */; };
 		843C013816995721004C0354 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843C013716995721004C0354 /* SystemConfiguration.framework */; };
 		843C013B169966EC004C0354 /* LYMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C013A169966EC004C0354 /* LYMapView.m */; };
-		843C013F169967AF004C0354 /* LYClassMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C013E169967AF004C0354 /* LYClassMapViewTests.m */; };
 		843C0141169968C6004C0354 /* LYOprRcvZMQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C0140169968C6004C0354 /* LYOprRcvZMQ.m */; };
 		843C014416996D38004C0354 /* LYClassViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C014316996D38004C0354 /* LYClassViewControllerTests.m */; };
 		843C014716997A8F004C0354 /* libzmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 843C014516997A8F004C0354 /* libzmq.a */; };
@@ -95,8 +94,6 @@
 		843C013716995721004C0354 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		843C0139169966EC004C0354 /* LYMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMapView.h; sourceTree = "<group>"; };
 		843C013A169966EC004C0354 /* LYMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMapView.m; sourceTree = "<group>"; };
-		843C013D169967AF004C0354 /* LYClassMapViewTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYClassMapViewTests.h; sourceTree = "<group>"; };
-		843C013E169967AF004C0354 /* LYClassMapViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYClassMapViewTests.m; sourceTree = "<group>"; };
 		843C0140169968C6004C0354 /* LYOprRcvZMQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYOprRcvZMQ.m; sourceTree = "<group>"; };
 		843C014216996D38004C0354 /* LYClassViewControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYClassViewControllerTests.h; sourceTree = "<group>"; };
 		843C014316996D38004C0354 /* LYClassViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYClassViewControllerTests.m; sourceTree = "<group>"; };
@@ -307,8 +304,6 @@
 			isa = PBXGroup;
 			children = (
 				84A8F607169688CB001C0E0F /* Supporting Files */,
-				843C013D169967AF004C0354 /* LYClassMapViewTests.h */,
-				843C013E169967AF004C0354 /* LYClassMapViewTests.m */,
 				843C014216996D38004C0354 /* LYClassViewControllerTests.h */,
 				843C014316996D38004C0354 /* LYClassViewControllerTests.m */,
 			);
@@ -474,7 +469,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843C013F169967AF004C0354 /* LYClassMapViewTests.m in Sources */,
 				843C014416996D38004C0354 /* LYClassViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
