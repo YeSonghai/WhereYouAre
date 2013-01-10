@@ -11,11 +11,12 @@
 @class LYViewController;
 @class BMKMapManager;
 
-@interface LYAppDelegate : UIResponder <UIApplicationDelegate>
+@interface LYAppDelegate : UIResponder <UIApplicationDelegate, UINavigationControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) LYViewController *viewController;
+@property (strong, nonatomic) UINavigationController *navigationController;
 
 @property BMKMapManager* baiduMapManager;
 @end

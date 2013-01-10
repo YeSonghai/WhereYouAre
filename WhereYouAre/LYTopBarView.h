@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LYVCDelegate.h"
 
 @interface LYTopBarView : UIView
+
+@property id <LYVCDelegate> delegate;
+- (IBAction)diSendSMS:(id)sender;
+- (IBAction)diSetMeetingPoint:(id)sender;
+- (IBAction)diShowHelpInfo:(id)sender;
 
 @end

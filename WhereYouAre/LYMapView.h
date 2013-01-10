@@ -7,7 +7,31 @@
 //
 
 #import "BMKMapView.h"
+#import "BMapKit.h"
+#import "LYMapPointAnnotation.h"
 
 @interface LYMapView : BMKMapView
+
+
+@property LYMapPointAnnotation *friendPointAnn;
+@property LYMapPointAnnotation *mettingPointAnn;
+@property LYMapPointAnnotation *undefinePointAnn;
+
+
+@property LYMapPointAnnotation *currentlySelectedAnnotation;  //当前选择的点；由外部selected的回调函数设置
+@property LYMapPointAnnotation *waitingPOIResultAnnotation;  //当前等待返回POI结果的点；由外部设置
+
+
+- (void) setCenterOfMapView:(CLLocationCoordinate2D)coordinate;
+- (void) changeMapVisibleRect:(BMKRoute*) route withIndex:(int) stepIndex;
+- (LYMapPointAnnotation*) addAnnotation2Map:(CLLocationCoordinate2D)coordinate withType:(enum LYEN_MAPPOINTTYPE)annoType addr:(NSString*)addrTxt;
+- (CLLocationCoordinate2D)addUndefAnnotationWithTouchPoint:(CGPoint) touchPoint;
+
+- (LYMapPointAnnotation*) getSelectedAnnotation;
+- (void) removeAllTrafficPolylines;
+- (void) removeAllUndefAnnotation;
+
+- (CLLocationCoordinate2D) getCurLocation;
+- (BOOL) checkIfLocOutofRange;
 
 @end

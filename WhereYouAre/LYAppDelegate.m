@@ -30,8 +30,17 @@
 
     
     self.viewController = [[LYViewController alloc] initWithNibName:@"LYViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    self.window.rootViewController = self.navigationController;
+    //self.window.rootViewController = self.viewController;
+    self.navigationController.delegate = self;
     [self.window makeKeyAndVisible];
+//    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];//UIBarStyleBlackTranslucent];
+    
+    //设置屏幕常亮
+    [ [ UIApplication sharedApplication] setIdleTimerDisabled:YES ] ;
+
+    
     return YES;
 }
 
@@ -60,6 +69,16 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)navigationController:(UINavigationController *)pnavigationController willShowViewController:(UIViewController *)pviewController animated:(BOOL)animated {
+    if ( pviewController ==  self.viewController)
+    {
+        [pnavigationController setNavigationBarHidden:YES animated:animated];
+    } else if ( [pnavigationController isNavigationBarHidden] )
+    {
+        [pnavigationController setNavigationBarHidden:NO animated:animated];
+    }
 }
 
 @end

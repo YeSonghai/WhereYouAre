@@ -1,14 +1,14 @@
 //
-//  LYTopBarView.m
+//  LYHelpInfoView.m
 //  WhereYouAre
 //
-//  Created by Sean.Yie on 13-1-4.
+//  Created by Sean.Yie on 13-1-9.
 //  Copyright (c) 2013年 Sean.Yie. All rights reserved.
 //
 
-#import "LYTopBarView.h"
+#import "LYHelpInfoView.h"
 
-@implementation LYTopBarView
+@implementation LYHelpInfoView
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -28,18 +28,4 @@
 }
 */
 
-- (IBAction)diSendSMS:(id)sender
-{
-    [self.delegate diSendSMS4GetLocation:sender];
-}
-
-- (IBAction)diSetMeetingPoint:(id)sender
-{
-    [self.delegate diGetMeetLocation:sender];
-}
-
-- (IBAction)diShowHelpInfo:(id)sender
-{
-    [self.delegate diShowHelpInfo:sender];
-}
 @end
